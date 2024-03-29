@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport"
+        content="width=device-width,  
+                initial-scale=1.0"> 
+    <title>Pomodoro Timer</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body>
+    <img src="pomodoro.png" alt="">
+    <h1 style="color:rgb(78, 178, 211)"> 
+        My Pomodoro
+    </h1> 
+    <div class="main"> 
+        <div class="timer-circle" 
+            id="timer">15:00 
+        </div> 
+        <div class="control-buttons"> 
+            <button onclick="togglePauseResume()"> 
+                Pause 
+            </button> 
+            <button onclick="restartTimer()"> 
+                Restart 
+            </button> 
+            <button onclick="chooseTime()"> 
+                Choose Time 
+            </button>
+        </div> 
+    </div> 
+</body> 
+</html>
